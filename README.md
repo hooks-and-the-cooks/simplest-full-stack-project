@@ -1,5 +1,5 @@
 # Creating Client-Server-Database Architecture using PERN (TODO WebAPP)
-1. This Project Uses PostgresSQL, NodeJS, ExpressJS and ReactJS.
+1. This Project Uses PostgresSQL, NodeJS, Express and ReactJS.
 2. This Project is to build a TODO List , with features of adding, deleting and updating.
 
 Requirements: Node, PostgresSQL

@@ -2,6 +2,8 @@
 1. This Project Uses PostgresSQL, NodeJS, Express and ReactJS.
 2. This Project is to build a TODO List , with features of adding, deleting and updating.
 
+![Image](Snap.png)
+
 Requirements: Node, PostgresSQL
 
 ## Postgres Installation

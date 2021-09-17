@@ -36,7 +36,7 @@ Get into the server repository  in shell and run command for all dependencies:
 Get into the client repository  in shell and run command for all dependencies:
 ### npm install
 
-## Running the Poject :
+## Running the Project :
 Starting server ,get into server in shell and run to start server:
 ### npm start
 

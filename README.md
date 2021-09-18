@@ -35,11 +35,9 @@ psql -U postgres
 ```
 
 ### Creating a Database:
-#### Create Database perntodo ;
-
-#### Create Table Names as todo :
 ```
-CREATE TABLE todo( todo_id SERIAL, description VARCHAR(200));
+createdb -Upostgres perntodo
+make run-migrations
 ```
 
 Then Enter the Data using INSERT command!
@@ -47,27 +45,20 @@ Then Enter the Data using INSERT command!
 ## Cloning the repository 
 Clone the repository using git commands.
 
-## Setting Up SERVER
-Get into the server repository  in shell and run command for all dependencies:
+## Building the Application:
 ```
-npm install
-```
-
-## Setting Up CLIENT
-Get into the client repository  in shell and run command for all dependencies:
-```
-npm install
+make setup
 ```
 
 ## Running the Project :
 Starting server ,get into server in shell and run to start server:
 ```
-npm start
+make start-server
 ```
 
 Starting client ,get into server in shell and run to start client:
 ```
-npm start
+make start-client
 ```
 
 
